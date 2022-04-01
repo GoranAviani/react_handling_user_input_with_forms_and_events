@@ -1,3 +1,4 @@
+Excercise from Modern React With Reduct Course by Stephen Grider. Excercise Section 7: Handling User Input with Forms and Events
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
