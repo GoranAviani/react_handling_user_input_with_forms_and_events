@@ -4,9 +4,16 @@ import SearchBar from "./SearchBar";
 
 class App extends React.Component {
 
+    onSearchSumbit(term){
+        console.log(term);
+    }
+
     render() {
-        return (<div>
-                <div className="ui container" style={{marginTop: '10px'}}><SearchBar/></div>
+        return (
+            <div>
+                <div className="ui container" style={{marginTop: '10px'}}>
+                    <SearchBar/>
+                </div>
             </div>
         )
     }
