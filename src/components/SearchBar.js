@@ -2,7 +2,10 @@ import React from 'react';
 
 
 class SearchBar extends React.Component {
-    state = {term: ''}
+    constructor() {
+        super();
+        this.state = {term: ''}
+    }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         console.log(this.state.term)
