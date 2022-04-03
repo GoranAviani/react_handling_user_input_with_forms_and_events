@@ -7,8 +7,8 @@ class SearchBar extends React.Component {
         this.state = {term: ''}
     }
 
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        console.log(this.state.term)
+    userInput = (event) => {
+        this.setState({term: event.target.value})
     }
 
     onFormSubmit = (event) => {
