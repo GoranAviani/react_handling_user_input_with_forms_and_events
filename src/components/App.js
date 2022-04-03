@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 
 class App extends React.Component {
 
-    onSearchSumbit(term){
+    onSearchSubmit(term){
         console.log(term);
     }
 
@@ -12,7 +12,7 @@ class App extends React.Component {
         return (
             <div>
                 <div className="ui container" style={{marginTop: '10px'}}>
-                    <SearchBar/>
+                    <SearchBar onSubmit = {this.onSearchSubmit}/>
                 </div>
             </div>
         )
